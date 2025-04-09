@@ -19,7 +19,3 @@ This repository contains all the projects completed as part of various FreeCodeC
 ## 📜 License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-Happy coding! 🚀
