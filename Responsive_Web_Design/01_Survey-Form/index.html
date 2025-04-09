@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <div class="header col">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </div>
+        <form id="survey-form">
+            <div class="name col">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" class="input" required>
+            </div>
+            <div class="email col">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" placeholder="Enter your Email" class="input" required>
+            </div>
+            <div class="age col">
+                <label for="number" id="number-label">Age <small>(optional)</small></label>
+                <input type="number" id="number" placeholder="Age" class="input" min="18" max="90">
+            </div>
+            <div class="role col">
+                <label for="">Which option best describes your current role?</label>
+                <select id="dropdown" class="input">
+                    <option disabled selected>Select current role</option>
+                    <option>Student</option>
+                    <option>Full Time Job</option>
+                    <option>Full Time Learner</option>
+                    <option>Prefer not to say</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div class="recom col">
+                <label for="">Would you recommend freeCodeCamp to a friend?</label>
+                <div class="box">
+                    <input type="radio" value="Definitely" name="choice" checked>
+                    <label>Definitely</label>
+                </div>
+                <div class="box">
+                    <input type="radio" value="Maybe" name="choice">
+                    <label>Maybe</label>
+                </div>
+                <div class="box">
+                    <input type="radio" value="Not sure" name="choice">
+                    <label>Not sure</label>
+                </div>
+            </div>
+            <div class="favFea col">
+                <label for="">What is your favorite feature of freeCodeCamp?</label>
+                <select name="" id="" class="input">
+                    <option disabled selected>Select an option</option>
+                    <option>Challenges</option>
+                    <option>Projects</option>
+                    <option>Community</option>
+                    <option>Open source</option>
+                </select>
+            </div>
+            <div class="improv col">
+                <label for="">What would you like to see improved? <small>(Check all that apply)</small></label>
+                <div class="box">
+                    <input type="checkbox" value="Front-end Projects">
+                    <label for="">Front-end Projects</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" value="Back-end Projects">
+                    <label for="">Back-end Projects</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" value="Data Visualization">
+                    <label for="">Data Visualization</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" value="Challenges">
+                    <label for="">Challenges</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" value="Open Source Community">
+                    <label for="">Open Source Community</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" value="Gitter help rooms">
+                    <label for="">Gitter help rooms</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" value="Videos">
+                    <label for="">Videos</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" value="City Meetups">
+                    <label for="">City Meetups</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" value="Wiki">
+                    <label for="">Wiki</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" value="Forum">
+                    <label for="">Forum</label>
+                </div>
+                <div class="box">
+                    <input type="checkbox" value="Additional Courses">
+                    <label for="">Additional Courses</label>
+                </div>
+            </div>
+            <div class="comsugess col">
+                <label for="">Any comments or suggestions?</label>
+                <textarea name="" id="" class="input" placeholder="Enter your comment here..."></textarea>
+            </div>
+            <input class="btn" type="submit" id="submit">
+        </form>
+    </main>
+
+</body>
+
+</html>

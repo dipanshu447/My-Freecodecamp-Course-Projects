@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-doc {
+    display: flex;
+}
+
+.left {
+    width: 300px;
+    min-height: 100%;
+    border-right : 2px solid rgb(77, 78, 83);
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.left ul {
+    height: 100vh;
+    list-style: none;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+.left ul li {
+    border-top: 1px solid;   
+    border-left: 0;  
+    border-right: 0;  
+    padding: 13px 30px;
+}
+
+.left header {
+    font-size: 29px;
+    font-weight: 400;
+    padding: 20px 30px;
+}
+
+.right{
+    margin: 0 0 0 300px;
+    width: 1300px;
+    padding: 35px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.aritcles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+    font-size: 15px;
+    line-height: 23px;
+    color: rgb(77, 78, 83);
+    font-weight: 400;
+}
+
+.aritcles ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 60px;
+}
+
+.right h1 {
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 43px;
+}
+
+.code {
+    font-family:  monospace;
+    font-weight: 200;
+    font-size: 12.5px;
+    text-align: left;
+    word-break: normal;
+    word-wrap: normal;
+    white-space: pre-line;
+    padding: 15px;
+    background-color: #f7f7f7;
+    border: 0;
+    color: #707070;
+    border-radius: 5px;
+}
+
+section header{
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+
+ul a {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(77, 78, 83);
+    text-decoration: none;
+}
+
+#Data_types > .aritcles > ul:nth-of-type(1) > li:nth-of-type(1) > ul{
+    margin-top: 10px;
+}
+
+#Reference {
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 726px) {
+    #Data_types > .aritcles > ul:nth-of-type(1) > li:nth-of-type(1) > ul{
+        width:100%;
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    #navbar > ul > li {
+        word-break: keep-all;
+    }
+}
