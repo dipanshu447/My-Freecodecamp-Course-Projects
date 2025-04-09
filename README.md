@@ -11,7 +11,7 @@ This repository contains all the projects completed as part of various FreeCodeC
 
 ## 🏅 Certification Links
 
-- [Responsive Web Design Certification](YOUR_CERTIFICATE_LINK_HERE)
+- [Responsive Web Design Certification](https://www.freecodecamp.org/certification/dipanshuu/responsive-web-design)
 - [JavaScript Algorithms and Data Structures Certification](Coming soon)
 
 > 🔄 This repository will be updated regularly as I continue progressing through more FreeCodeCamp certifications.
