@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b1b32;
+    font-family: "Castoro Titling", serif;
+    padding: 50px 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 230px;
+}
+
+h1 {
+    margin: 30px auto;
+    font-size: 32px;
+    font-weight: 700;
+    color:rgb(245, 246, 247);
+    text-align: center;
+    max-width: 450px;
+}
+
+.input-box{
+    max-width: 450px;
+    height: 230px;
+    background-color: rgba(255, 255, 255, 0.19);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid white;
+}
+
+.input-box label {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color:rgb(245, 246, 247);
+}
+
+.input-box input {
+    color: white;
+    font-size: 35px;
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #0a0a23;
+    border: 1px solid white;
+}
+
+.input-box button {
+    width: 100%;    
+    font-size: 20px;
+    padding: 10px;
+    background: linear-gradient(#fecc4c, #ffac33);
+    border: 2px solid #feac32;
+    cursor: pointer;
+}
+
+.error {
+    background-color: rgb(255, 181, 181);
+    font-size: 26px;
+    color: rgb(100, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    border: 2px solid red;
+    font-weight: 400;
+}
+
+.result{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 450px;
+    background-color: rgba(255, 255, 255, 0.19);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    border: 2px solid white;
+    font-size: 35px;
+    font-weight: 400;
+    color:rgb(245, 246, 247);
+}
+
+.hidden {
+    display: none;
+}
