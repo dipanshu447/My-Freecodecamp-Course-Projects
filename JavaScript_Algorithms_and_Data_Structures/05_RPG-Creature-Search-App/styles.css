@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b1b32;
+    padding: 30px 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 250px;
+}
+
+h1 {
+    margin: 25px auto;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(245, 246, 247);
+    text-align: center;
+    max-width: 450px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    gap: 10px;
+    font-size: 16px;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #dfdcdcbf;
+}
+
+.container input {
+    font-size: 13px;
+    padding: 0px 10px;
+    width: 220px;
+    height: 40px;
+}
+
+.container button {
+    padding: 10px 20px;
+    background-color: #7f21ab;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+
+.bottom-container {
+    color: white;
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.base {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.b {
+    height: 40px;
+    background-color: #7f21ab;
+    padding: 10px 20px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 30%;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 30px 15px;
+}
+
+.nameid,.measure{
+    display: flex;
+    gap: 5px;
+}
+
+.special {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.nameid {
+    font-size: 18px;
+}
+
+#creature-name {
+    font-weight: 600;
+}
+
+.measure {
+    font-size: 13px;
+}
+
+#types {
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.special {
+    font-size: 15px;
+}
+
+#specialname {
+    font-weight: 600;
+}
+
+#specialdescription {
+    font-size: 13px;
+}
+
+.type {
+    margin-right:2px;
+}
+
+@media only screen and (max-width:551px) {
+    .container {
+        width: 330px;
+        padding: 15px 8px;
+    }
+
+    .container input {
+        width: 200px;
+        height: 40px;
+    }
+}

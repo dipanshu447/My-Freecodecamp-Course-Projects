@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="logo">
+        <h1>RPG Creature Search App</h1>
+        <div class="container">
+            <p>Search for Creature Name or ID:</p>
+            <div class="search-box">
+                <input id="search-input" type="text" required>
+                <button id="search-button">Search</button>
+            </div>
+            <div class="top-container">
+                <div class="nameid">
+                    <div id="creature-name"></div>
+                    <div id="creature-id"></div>
+                </div>
+                <div class="measure">
+                    <div id="weight"></div>
+                    <div id="height"></div>
+                </div>
+                <div id="types"></div>
+                <div class="special">
+                    <div id="specialname"></div>
+                    <div id="specialdescription"></div>
+                </div>
+            </div>
+            <div class="bottom-container">
+                <div class="base">
+                    <div class="b"><strong>Base</strong></div>
+                    <div class="b">HP:</div>
+                    <div class="b">Attack:</div>
+                    <div class="b">Defense:</div>
+                    <div class="b">Sp. Attack:</div>
+                    <div class="b">Sp. Defense:</div>
+                    <div class="b">Speed:</div>
+                </div>
+                <div class="stats">
+                    <div class="b"><strong>Stats</strong></div>
+                    <div class="b" id="hp"></div>
+                    <div class="b" id="attack"></div>
+                    <div class="b" id="defense"></div>
+                    <div class="b" id="special-attack"></div>
+                    <div class="b" id="special-defense"></div>
+                    <div class="b" id="speed"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
